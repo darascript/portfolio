@@ -1,6 +1,6 @@
 import React from 'react';
 import profilePicture from './IDpic.jpeg'; 
-import resumePDF from './D.Darafeja_CV_eng.pdf'; // Ensure the image is in the correct folder
+import resumePDF from './D.Darafeja_CV.pdf'; 
 
 const AboutMe = () => {
   return (
@@ -27,7 +27,7 @@ const AboutMe = () => {
               Hire Me
             </a>
             <a 
-              href={resumePDF}  // Ensure your CV file is in the public folder
+              href={resumePDF}  
               className="inline-block px-8 py-3 text-lg font-semibold bg-gray-800 text-white rounded-full shadow-md hover:bg-gray-700 transition"
               download
             >

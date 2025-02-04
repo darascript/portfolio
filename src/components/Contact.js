@@ -35,7 +35,7 @@ const Contact = () => {
           <ul className="space-y-2">
             <li>
               <a
-                href="mailto:email@example.com"
+                href="mailto:dana.darafeja@gmail.com"
                 className="hover:text-gray-400 flex items-center justify-center"
               >
                 <i className="fas fa-envelope mr-2"></i>Email
@@ -43,7 +43,7 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/dana-darafeja-92b22224a/"
                 className="hover:text-gray-400 flex items-center justify-center"
               >
                 <i className="fab fa-linkedin mr-2"></i>LinkedIn

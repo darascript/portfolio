@@ -4,51 +4,49 @@ const projectsData = [
   {
     "id": 1,
     "title": "Dyslexia Reading App",
-    "description":
-      "An application that provides different reading modes to help people with dyslexia",
+    "description": "A user-friendly reading application designed to support individuals with dyslexia. It offers customizable reading modes, color contrast adjustments, and font optimizations to enhance reading comfort and comprehension.",
     "skills": [
-      { "iconClass": "fab fa-react", "color": "text-cyan-400", "title": "React" },
-      { "iconClass": "fab fa-java", "color": "text-orange-400", "title": "Java" },
-      
+      { "iconClass": "fab fa-react", "color": "text-cyan-400", "title": "React Native" },
+      { "iconClass": "fab fa-java", "color": "text-red-500", "title": "Java" },
+      { "iconClass": "fas fa-leaf", "color": "text-green-600", "title": "Spring Boot" }
     ],
-    "githubLink": "https://github.com/"
-  },
+    "githubLink": "https://github.com/darascript/dyslexia-reading-app"
+  },  
   {
     "id": 2,
-    "title": "To-Do List",
-    "description":
-      "In this project I implement CRUD using Express in the backend and React Native for the front as well as user authentication.",
+    "title": "Personal Expense Tracker",
+    "description": "A personal finance management app that allows users to track their expenses. The app includes features like real-time expense tracking, secure user authentication, and personalized financial insights to help users manage their money more effectively.",
     "skills": [
-      { "iconClass": "fab fa-react", "color": "text-cyan-400", "title": "React" },
-      { "iconClass": "fab fa-node", "color": "text-green-500", "title": "Node.js" },
-      { "iconClass": "fas fa-database", "color": "text-green-600", "title": "Database" }
+      { "iconClass": "fab fa-react", "color": "text-cyan-500", "title": "React" },
+      { "iconClass": "fab fa-java", "color": "text-red-500", "title": "Java" },
+      { "iconClass": "fas fa-leaf", "color": "text-green-600", "title": "Spring Boot" }
+     
     ],
-    "githubLink": "https://github.com/"
+    "githubLink": "https://github.com/darascript/expense-tracker"
   },
   {
     "id": 3,
-    "title": "Personal Expense Tracker",
-    "description":
-      "CRUD implementation using Spring Boot and authentication using Spring Boot Security. I also used Java Web Token for session management and React frontend as proxy.",
+    "title": "E-Commerce App",
+    "description": "A lightweight e-commerce application that allows users to browse products, add items to their cart, and complete secure checkouts. The app features dynamic product listings, real-time search functionality, and a responsive design for seamless shopping experiences across devices.",
     "skills": [
-      { "iconClass": "fab fa-java", "color": "text-orange-400", "title": "Java" },
-      { "iconClass": "fa-solid fa-power-off", "color": "text-green-300", "title": "Docker" },
-      { "iconClass": "fab fa-react", "color": "text-cyan-500", "title": "React" }
+      { "iconClass": "fab fa-react", "color": "text-cyan-400", "title": "Next.js" },
+      { "iconClass": "fab fa-node", "color": "text-green-500", "title": "Node.js" },
+      { "iconClass": "fas fa-database", "color": "text-green-600", "title": "Database" }
     ],
-    "githubLink": "https://github.com/"
+    "githubLink": "https://github.com/darascript/ecommerce"
   },
-  {
+    {
     "id": 4,
     "title": "Book List",
-    "description":
-      "Descripion",
+    "description": "A dynamic web application that allows users to add, view, and manage their favorite books with ease. It features a responsive UI, real-time updates, and efficient data handling for an enhanced user experience.",
     "skills": [
-      { "iconClass": "fab fa-react", "color": "text-cyan-400", "title": "React" },
-      { "iconClass": "fab fa-node", "color": "text-green-500", "title": "Node.js" },
-      { "iconClass": "fas fa-comment-dots", "color": "text-purple-500", "title": "Socket.IO" }
+      { "iconClass": "fab fa-html5", "color": "text-orange-400", "title": "HTML" },
+      { "iconClass": "fab fa-java", "color": "text-red-500", "title": "Java" },
+      { "iconClass": "fas fa-leaf", "color": "text-green-600", "title": "Spring Boot" }
     ],
-    "githubLink": "https://github.com/"
-  },
+    "githubLink": "https://github.com/darascript/booklist"
+  }
+  
 ];
 
 const Projects = () => {

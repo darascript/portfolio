@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { FaJs, FaReact, FaNodeJs, FaDatabase, FaJava, FaPython, FaCuttlefish } from 'react-icons/fa'; // Importing icons
+import { FaJs, FaReact, FaNodeJs, FaDatabase, FaJava, FaPython, FaCuttlefish, FaLeaf } from 'react-icons/fa'; // Importing icons
 
 const skillsData = [
   { name: 'JavaScript', icon: <FaJs />, level: 3 },
-  { name: 'React', icon: <FaReact />, level: 4 },
+  { name: 'React | React Native', icon: <FaReact />, level: 4 },
   { name: 'Node.js', icon: <FaNodeJs />, level: 3 },
   { name: 'C++', icon: <FaCuttlefish />, level: 4 },
   { name: 'MongoDB', icon: <FaDatabase />, level: 2 },
   { name: 'Java', icon: <FaJava />, level: 3 },
-  { name: 'Spring Boot', icon: <FaJava />, level: 2 },
+  { name: 'Spring Boot', icon: <FaLeaf />, level: 2 },
   { name: 'Python', icon: <FaPython />, level: 3 },
   { name: 'SQL', icon: <FaDatabase />, level: 2 },
 ];
@@ -18,7 +18,7 @@ const SkillLevel = ({ level }) => (
     {[...Array(5)].map((_, index) => (
       <div
         key={index}
-        className={`w-3 h-3 rounded-full ${index < level ? 'bg-green-500' : 'bg-gray-300'}`} // Smaller circles
+        className={`w-3 h-3 rounded-full ${index < level ? 'bg-green-500' : 'bg-gray-300'}`} 
       ></div>
     ))}
   </div>
@@ -35,7 +35,7 @@ const Skills = () => {
           {skillsData.map((skill, idx) => (
             <div 
               key={idx} 
-              className="relative p-3 border border-gray-200 rounded-lg transition-all duration-300" // Transition effect
+              className="relative p-3 border border-gray-200 rounded-lg transition-all duration-300" 
               onMouseEnter={() => setHoveredSkill(idx)}
               onMouseLeave={() => setHoveredSkill(null)}
             >
