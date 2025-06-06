@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaJs, FaReact, FaNodeJs, FaDatabase, FaJava, FaPython, FaCuttlefish, FaLeaf, FaServer } from 'react-icons/fa';
+import { FaJs, FaReact, FaNodeJs, FaDatabase, FaJava, FaPython, FaCuttlefish, FaLeaf, FaServer, FaDocker } from 'react-icons/fa';
 
 const skillsData = [
   { name: 'Java', icon: <FaJava />, level: 4 },
@@ -11,6 +11,7 @@ const skillsData = [
   { name: 'Node.js', icon: <FaNodeJs />, level: 3 },
   { name: 'MongoDB', icon: <FaServer/>, level: 2 },
   { name: 'SQL', icon: <FaDatabase />, level: 2 },
+  { name: 'Docker', icon: <FaDocker />, level: 2 },
 ];
 
 const SkillLevel = ({ level }) => (
