@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.25b06018.css",
-    "main.js": "/portfolio/static/js/main.c7b0837f.js",
+    "main.js": "/portfolio/static/js/main.d8e3aea5.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/DanaDarafejaCV.pdf": "/portfolio/static/media/DanaDarafejaCV.1e7cd46ae62428d64017.pdf",
     "static/media/IDpic.jpeg": "/portfolio/static/media/IDpic.0af365809d66dd359e0a.jpeg",
     "index.html": "/portfolio/index.html",
     "main.25b06018.css.map": "/portfolio/static/css/main.25b06018.css.map",
-    "main.c7b0837f.js.map": "/portfolio/static/js/main.c7b0837f.js.map",
+    "main.d8e3aea5.js.map": "/portfolio/static/js/main.d8e3aea5.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25b06018.css",
-    "static/js/main.c7b0837f.js"
+    "static/js/main.d8e3aea5.js"
   ]
 }
